@@ -2,7 +2,6 @@
 node_modules/
 __pycache__/
 *.pyc
-
 # Environment variables
 .env
 .env.local
@@ -12,9 +11,10 @@ __pycache__/
 .next/
 out/
 
-# Python virtual environment
-venv/
-env/
+# Python
+backend/__pycache__/
+backend/venv/
+backend/env/
 
 # IDE
 .vscode/
